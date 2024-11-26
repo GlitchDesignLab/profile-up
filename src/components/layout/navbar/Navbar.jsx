@@ -52,7 +52,7 @@ const NavigationBar = () => {
                 to="/psicotecnico-aptopsicologico"
                 className="dropdown-item"
               >
-                Psicotecnico
+                Psicotécnico
               </NavLink>
 
               <NavLink

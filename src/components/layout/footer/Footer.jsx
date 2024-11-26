@@ -36,13 +36,32 @@ const Footer = () => {
           <hr className="clearfix w-100 d-md-none pb-0" />
 
           <div className="col-md-3 mb-md-0 mb-3">
-            <h5>Información</h5>
+            <h5>Servicios</h5>
             <ul className="list-unstyled d-flex flex-column align-items-center gap-1">
               <li>
-                <a href="#!">contacto@mail.com</a>
+                <Link to="/rrhh" replace>
+                  Recuros humanos
+                </Link>
               </li>
               <li>
-                <a href="#!">(+54) 11 3454-4545</a>
+                <Link to="/terapia-piscologica" replace>
+                  Terapia piscologica
+                </Link>
+              </li>
+              <li>
+                <Link to="/asesoria-consultoria" replace>
+                  Asesoría
+                </Link>
+              </li>
+              <li>
+                <Link to="/psicotecnico-aptopsicologico" replace>
+                  Psicotécnico
+                </Link>
+              </li>
+              <li>
+                <Link to="/capacitaciones-entrevistas" replace>
+                  Capacitaciones
+                </Link>
               </li>
             </ul>
           </div>
