@@ -10,7 +10,7 @@
   background-position: bottom center;
   display: flex;
 }
-.about_wrapper {
+.about_banner_wrapper {
   position: relative;
   width: 100%;
   max-width: 1400px;
@@ -19,4 +19,9 @@
   justify-content: space-around;
   flex-wrap: wrap;
   padding-bottom: 200px;
+}
+.about_article_banner {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
 }
