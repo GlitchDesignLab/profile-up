@@ -12,17 +12,25 @@ export default function ServicesBanner({
     <div className={styles.servicesBanner}>
       <div className={styles.servicesBanner_text}>
         <div className={styles.online}>
-          <img src={onlineIcon} alt="online icon" />
+          <img
+            src={onlineIcon}
+            alt="online icon"
+            className={styles.servicesBanner_icon}
+          />
           <span>Online</span>
         </div>
         <h1>{title}</h1>
         <ul>
-          <li><h3>{prop1}</h3></li>
-          <li><h3>{prop2}</h3></li>
+          <li>
+            <h3>{prop1}</h3>
+          </li>
+          <li>
+            <h3>{prop2}</h3>
+          </li>
         </ul>
         <a href={link}>{btnLabel}</a>
       </div>
-      <img src={image} alt={title} />
+      <img src={image} alt={title} className={styles.ServicesBanner_mainImg} />
     </div>
   );
 }

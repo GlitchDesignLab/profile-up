@@ -52,8 +52,9 @@ const About = () => {
           <Maintitle
             markedtext="MATÍAS ALBERTO MARTÍNEZ"
             title="Sobre mí, y mi carrera"
-            description="En esta sección vas a conocerme como persona, y como profesional"
+            description="Compartiré mi trayectoria, valores y pasiones, para que descubras cómo aplico mis habilidades en el ámbito profesional y conozcas mi lado más humano."
           ></Maintitle>
+
           <div className={styles.profile_image}>
             <img src={profileImage} alt="profile" />
           </div>

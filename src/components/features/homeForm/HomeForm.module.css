@@ -31,3 +31,16 @@
 .button:hover {
   box-shadow: -2px 2px 16px rgba(0, 0, 0, 0.323);
 }
+
+@media screen and (max-width: 1080px) {
+  .form {
+    max-width: 480px;
+    margin: 50px 20px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .form {
+    max-width: 360px;
+    margin: 50px 20px;
+  }
+}
