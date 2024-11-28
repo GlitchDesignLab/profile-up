@@ -7,7 +7,7 @@
 .about_banner {
   background: url("../../assets/images/profile_background.png") no-repeat;
   background-size: cover;
-  background-position: bottom center;
+  background-position: center;
   display: flex;
 }
 .about_banner_wrapper {
@@ -17,11 +17,30 @@
   margin: 120px auto;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
-  padding-bottom: 200px;
+  align-items: center;
+  padding-bottom: 100px;
 }
 .about_article_banner {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   position: relative;
+}
+
+@media screen and (max-width: 1350px) {
+  .profile_image img {
+    width: 450px;
+    margin: 50px 0;
+  }
+  .about_banner_wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 120px 0 0 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .profile_image img {
+    width: 350px;
+    margin: 50px 0;
+  }
 }

@@ -13,11 +13,28 @@ export default function HomeForm() {
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-  const handleCheckboxChange = (e) => {};
-
+  const handleCheckboxChange = (e) => {
+    setFormData({ ...formData, conditions: e.target.checked });
+  };
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
+    fetch("https://formspree.io/f/mwpkrrwy", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+        conditions: formData.conditions,
+      }),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log("Success:", data);
+      })
+      .catch((error) => {
+        console.error("Error:", error); // Aquí puedes manejar el error
+      });
   };
 
   return (

@@ -69,10 +69,12 @@ const Footer = () => {
             <h5>Contacto</h5>
             <ul className="list-unstyled d-flex flex-column align-items-center gap-1">
               <li>
-                <a href="#!">contacto@mail.com</a>
+                <a href="mailto:profileupba@gmail.com">profileupba@gmail.com</a>
               </li>
               <li>
-                <a href="#!">(+54) 11 3454-4545</a>
+                <a href="https://wa.me/541153332684?text=Hola!,%20Quiero%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20ProfileUp">
+                  (+54) 11 3454-4545
+                </a>
               </li>
             </ul>
           </div>
@@ -81,17 +83,17 @@ const Footer = () => {
             <h5>Redes sociales</h5>
             <ul className="list-unstyled d-flex flex-column align-items-start gap-1">
               <li>
-                <a href="#!">
+                <a href="https://www.linkedin.com/in/mat%C3%ADasamart%C3%ADnez?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                   <IconText icon={linkedinIcon}>Linkedin</IconText>
                 </a>
               </li>
               <li>
-                <a href="#!">
+                <a href="https://www.instagram.com/profileup_buenosaires/profilecard/?igsh=MWFudTRkamRkbGFsOA==">
                   <IconText icon={instagramIcon}>Instagram</IconText>
                 </a>
               </li>
               <li>
-                <a href="#!">
+                <a href="https://wa.me/541153332684?text=Hola!,%20Quiero%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20ProfileUp">
                   <IconText icon={whatsappIcon}>Whatsapp</IconText>
                 </a>
               </li>

@@ -38,31 +38,31 @@ const Terapia = () => {
     {
       id: 1,
       title: "Profesionalismo",
-      description: "Lorem impsum asdkjaslkd sadkjslkadj sadj.",
+      // description: "Lorem impsum asdkjaslkd sadkjslkadj sadj.",
       src: profIcon,
     },
     {
       id: 2,
       title: "Análisis de competencias",
-      description: "Lorem impsum asdkjaslkd sadkjslkadj sadj.",
+      // description: "Lorem impsum asdkjaslkd sadkjslkadj sadj.",
       src: profIcon,
     },
     {
       id: 3,
       title: "Efectividad",
-      description: "Lorem impsum asdkjaslkd sadkjslkadj sadj.",
+      // description: "Lorem impsum asdkjaslkd sadkjslkadj sadj.",
       src: profIcon,
     },
     {
       id: 4,
       title: "Análisis de casos",
-      description: "Lorem impsum asdkjaslkd sadkjslkadj sadj.",
+      // description: "Lorem impsum asdkjaslkd sadkjslkadj sadj.",
       src: profIcon,
     },
     {
       id: 5,
       title: "Eficiencia",
-      description: "Lorem impsum asdkjaslkd sadkjslkadj sadj.",
+      // description: "Lorem impsum asdkjaslkd sadkjslkadj sadj.",
       src: profIcon,
     },
   ];

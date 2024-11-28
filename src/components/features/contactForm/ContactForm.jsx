@@ -38,6 +38,23 @@ export default function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    fetch("https://formspree.io/f/mwpkrrwy", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+        conditions: formData.conditions,
+      }),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log("Success:", data);
+      })
+      .catch((error) => {
+        console.error("Error:", error); // Aquí puedes manejar el error
+      });
 
     const errors = validateContact(formData);
     setErrorForm(errors);
@@ -46,20 +63,6 @@ export default function ContactForm() {
     if (hasErrors) {
       return;
     }
-    setIsLoading(true);
-    // TODO => send data to server
-    // Simulando una llamada a una API
-    setTimeout(() => {
-      try {
-        throw new Error("Error sending data");
-        showToast("Se enviaron los datos correctamente", "success");
-      } catch (error) {
-        console.log(error.message);
-        showToast("Error al enviar los datos", "error");
-      } finally {
-        setIsLoading(false);
-      }
-    }, 2000);
   };
 
   return (

@@ -5,7 +5,7 @@ const AboutArticle = ({ icon, title, description, image }) => {
   return (
     <article className={styles.aboutArticle}>
       <div>
-        <img src={icon} alt={title} />
+        <img src={icon} alt={title} className={styles.article_icon} />
         <span>{title}</span>
         <p>{description}</p>
       </div>
