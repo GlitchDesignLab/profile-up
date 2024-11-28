@@ -45,7 +45,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/terapia-piscologica" replace>
-                  Terapia piscologica
+                  Terapia psicológica
                 </Link>
               </li>
               <li>
