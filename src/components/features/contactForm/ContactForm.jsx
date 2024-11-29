@@ -36,9 +36,18 @@ export default function ContactForm() {
     setErrorForm({ ...errorForm, [e.target.name]: "" });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    fetch("https://formspree.io/f/mwpkrrwy", {
+    const errors = validateContact(formData);
+    setErrorForm(errors);
+
+    const hasErrors = Object.values(errors).some((error) => error !== "");
+    if (hasErrors) {
+      return;
+    }
+
+    setIsLoading(true);
+    await fetch("https://formspree.io/f/mwpkrrwy", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -48,21 +57,21 @@ export default function ContactForm() {
         conditions: formData.conditions,
       }),
     })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log("Success:", data);
+      .then((response) => {
+        if (response.ok) {
+          showToast("Mensaje enviado correctamente", "success");
+          setFormData({
+            name: "",
+            phone: "",
+            email: "",
+            message: "",
+          });
+        }
       })
       .catch((error) => {
-        console.error("Error:", error); // Aquí puedes manejar el error
-      });
-
-    const errors = validateContact(formData);
-    setErrorForm(errors);
-
-    const hasErrors = Object.values(errors).some((error) => error !== "");
-    if (hasErrors) {
-      return;
-    }
+        showToast("Error, falló al enviar el mensaje", "error");
+      })
+      .finally(() => setIsLoading(false));
   };
 
   return (
