@@ -1,5 +1,6 @@
 .profile_image img {
   width: 555px;
+  height: 555px;
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid var(--white);
@@ -28,6 +29,7 @@
 @media screen and (max-width: 1350px) {
   .profile_image img {
     width: 450px;
+    height: 450px;
     margin: 50px 0;
   }
   .about_banner_wrapper {
@@ -40,6 +42,7 @@
 @media screen and (max-width: 750px) {
   .profile_image img {
     width: 350px;
+    height: 350px;
     margin: 50px 0;
   }
 }

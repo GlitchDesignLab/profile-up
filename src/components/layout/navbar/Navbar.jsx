@@ -40,7 +40,7 @@ const NavigationBar = () => {
                 RRHH
               </NavLink>
 
-              <NavLink to="/terapia-piscologica" className="dropdown-item">
+              <NavLink to="/terapia-psicologica" className="dropdown-item">
                 Terapia
               </NavLink>
 
