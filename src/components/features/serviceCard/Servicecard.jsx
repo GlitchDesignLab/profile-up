@@ -18,9 +18,7 @@ const Servicecard = ({ title, description, src, link }) => {
       <Card.Body className="d-flex flex-column justify-content-between align-items-start">
         <Card.Title>{title}</Card.Title>
         <Card.Text>{description}</Card.Text>
-        <Link to={link}>
-          Más información
-        </Link>
+        <Link to={link}>Obtener más info</Link>
       </Card.Body>
     </Card>
   );
