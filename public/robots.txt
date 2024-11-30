@@ -1,0 +1,8 @@
+# Permitir acceso a todos los motores de búsqueda
+User-agent: *
+Disallow:
+
+# Bloquear carpetas y archivos no relevantes
+
+# Especificar el sitemap
+Sitemap: https://profileupmm.com.ar/sitemap.xml
