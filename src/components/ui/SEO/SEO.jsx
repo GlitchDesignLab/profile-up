@@ -22,3 +22,8 @@ export default function SEO() {
     </Helmet>
   );
 }
+
+    // <meta property="og:image" content="https://tu-sitio.com/ruta-de-la-imagen.jpg" />
+    // <meta property="og:image:alt" content="Descripción de la imagen" />
+    // <meta property="twitter:image" content="https://tu-sitio.com/ruta-de-la-imagen.jpg" />
+    // <meta property="twitter:card" content="summary_large_image" />

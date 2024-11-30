@@ -73,7 +73,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="https://wa.me/541153332684?text=Hola!,%20Quiero%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20ProfileUp">
-                  (+54) 11 3454-4545
+                  (+54) 9 11 5333-2684
                 </a>
               </li>
             </ul>

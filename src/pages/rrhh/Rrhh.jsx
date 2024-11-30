@@ -80,7 +80,7 @@ const Rrhh = () => {
               selección laboral
             </>
           }
-          prop1="Otimiza tu búsqueda"
+          prop1="Optimiza tu búsqueda"
           prop2="Encuentra al profesional adecuado"
           image={rrhhService}
           link="/#"
