@@ -36,7 +36,7 @@ const Footer = () => {
           <hr className="clearfix w-100 d-md-none pb-0" />
 
           <div className="col-md-3 mb-md-0 mb-3">
-            <h5>Servicios</h5>
+            <span>Servicios</span>
             <ul className="list-unstyled d-flex flex-column align-items-center gap-1">
               <li>
                 <Link to="/rrhh" replace>
@@ -66,7 +66,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-md-3 mb-md-0 mb-3">
-            <h5>Contacto</h5>
+            <span>Contacto</span>
             <ul className="list-unstyled d-flex flex-column align-items-center gap-1">
               <li>
                 <a href="mailto:profileupba@gmail.com">profileupba@gmail.com</a>
@@ -80,7 +80,7 @@ const Footer = () => {
           </div>
 
           <div className="col-md-3 mb-md-0 mb-3 d-flex flex-column align-items-center">
-            <h5>Redes sociales</h5>
+            <span>Redes sociales</span>
             <ul className="list-unstyled d-flex flex-column align-items-start gap-1">
               <li>
                 <a href="https://www.linkedin.com/in/mat%C3%ADasamart%C3%ADnez?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">

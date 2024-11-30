@@ -8,8 +8,9 @@
 .footer a {
   color: var(--white);
 }
-.footer h5 {
+.footer span {
   filter: brightness(0.8);
+  font-size: 1.25rem;
 }
 
 .logo_footer {
