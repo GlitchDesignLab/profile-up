@@ -13,9 +13,12 @@
   font-size: 1.5rem;
 }
 .main_title_container h1,
-.main_title_container h3 {
+.main_title_container p {
   display: inline;
   max-width: 562px;
+}
+.main_title_container p {
+  font-size: 1.3rem;
 }
 @media screen and (max-width: 768px) {
   .main_title_container {
