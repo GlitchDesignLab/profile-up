@@ -23,6 +23,7 @@ import NavigationBar from "./components/layout/navbar/Navbar";
 
 // Footer
 import Footer from "./components/layout/footer/Footer";
+import SEO from "./components/ui/SEO/SEO";
 
 function App() {
   const location = useLocation();
@@ -33,27 +34,29 @@ function App() {
 
   return (
     <>
+      <SEO />
       <NavigationBar />
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contacto" element={<Contacto />} />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contacto" element={<Contacto />} />
+          <Route path="/rrhh" element={<Rrhh />} />
+          <Route path="/terapia-psicologica" element={<Terapia />} />
+          <Route path="/asesoria-consultoria" element={<Asesoria />} />
+          <Route
+            path="/psicotecnico-aptopsicologico"
+            element={<Psicotecnico />}
+          />
+          <Route
+            path="/capacitaciones-entrevistas"
+            element={<Capacitaciones />}
+          />
 
-        <Route path="/rrhh" element={<Rrhh />} />
-        <Route path="/terapia-psicologica" element={<Terapia />} />
-        <Route path="/asesoria-consultoria" element={<Asesoria />} />
-        <Route
-          path="/psicotecnico-aptopsicologico"
-          element={<Psicotecnico />}
-        />
-        <Route
-          path="/capacitaciones-entrevistas"
-          element={<Capacitaciones />}
-        />
-
-        <Route path="*" element={<Error />} />
-      </Routes>
+          <Route path="*" element={<Error />} />
+        </Routes>
+      </main>
 
       <Footer />
     </>

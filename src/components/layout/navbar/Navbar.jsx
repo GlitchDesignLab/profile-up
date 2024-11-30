@@ -28,7 +28,7 @@ const NavigationBar = () => {
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav id="nav_links_container">
             <NavLink to="/" className={`nav-link ${styles.link_margin}`}>
-              Home
+              Inicio
             </NavLink>
 
             <NavDropdown

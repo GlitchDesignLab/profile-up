@@ -50,7 +50,7 @@ const About = () => {
       <section className={styles.about_banner}>
         <div className={styles.about_banner_wrapper}>
           <Maintitle
-            markedtext="MATÍAS ALBERTO MARTÍNEZ"
+            markedtext="MATÍAS MARTÍNEZ"
             title="Sobre mí, y mi carrera"
             description="Compartiré mi trayectoria, valores y pasiones, para que descubras cómo aplico mis habilidades en el ámbito profesional y conozcas mi lado más humano."
           ></Maintitle>

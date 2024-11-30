@@ -1,4 +1,5 @@
 import React from "react";
+
 import ServicesBanner from "../../components/layout/servicesBanner/ServicesBanner";
 import capacitacionesservice from "../../assets/images/capacitaciones_banner.png";
 import ServiceWrapper from "../../components/layout/wrapper/ServiceWrapper";
