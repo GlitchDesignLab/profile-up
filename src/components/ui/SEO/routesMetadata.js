@@ -50,7 +50,7 @@ export const routesMetadata = [
   },
   //   Terapia
   {
-    path: "/terapia",
+    path: "/terapia-psicologica",
     title:
       "Terapia Psicológica - Profile Up | Apoyo Emocional y Bienestar Personal",
     description:
@@ -58,11 +58,11 @@ export const routesMetadata = [
     keywords:
       "terapia psicológica, apoyo emocional, bienestar personal, gestión del tiempo, salud mental, sesiones de terapia, terapia online, psicología",
     ogImage: "https://profileupmm.com.ar/assets/images/terapia-banner.jpg",
-    ogUrl: "https://profileupmm.com.ar/terapia",
+    ogUrl: "https://profileupmm.com.ar/terapia-psicologica",
   },
   //   Asesoría
   {
-    path: "/asesoria",
+    path: "/asesoria-consultoria",
     title:
       "Asesoría y Consultoría - Profile Up | Mejora el Desempeño de tu Equipo",
     description:
@@ -70,11 +70,11 @@ export const routesMetadata = [
     keywords:
       "asesoría, consultoría, mejora desempeño equipo, optimización procesos, tendencias empresariales, análisis de competencias, metodologías efectivas",
     ogImage: "https://profileupmm.com.ar/assets/images/asesoria-banner.jpg",
-    ogUrl: "https://profileupmm.com.ar/asesoria",
+    ogUrl: "https://profileupmm.com.ar/asesoria-consultoria",
   },
   //   Psicotecnico
   {
-    path: "/psicotecnico",
+    path: "/psicotecnico-aptopsicologico",
     title:
       "Psicotécnico y Apto Psicológico - Profile Up | Evalúa tu Salud Emocional",
     description:
@@ -82,11 +82,11 @@ export const routesMetadata = [
     keywords:
       "psicotécnico, apto psicológico, evaluación emocional, salud emocional, evaluación para conducir, análisis de competencias, resultados psicotécnicos",
     ogImage: "https://profileupmm.com.ar/assets/images/psicotecnico-banner.jpg",
-    ogUrl: "https://profileupmm.com.ar/psicotecnico",
+    ogUrl: "https://profileupmm.com.ar/psicotecnico-aptopsicologico",
   },
   //   Capacitaciones
   {
-    path: "/capacitaciones",
+    path: "/capacitaciones-entrevistas",
     title: "Capacitación para Entrevistas - Profile Up | Conseguí Ese Trabajo",
     description:
       "Mejora tus habilidades para entrevistas laborales. Ofrecemos capacitación profesional para comunicar tus fortalezas y conseguir el trabajo deseado.",
@@ -94,6 +94,6 @@ export const routesMetadata = [
       "capacitación para entrevistas, preparación de entrevistas, mejorar comunicación, entrevistas laborales, empleo, trabajo, desarrollo profesional",
     ogImage:
       "https://profileupmm.com.ar/assets/images/capacitacion-entrevistas.jpg",
-    ogUrl: "https://profileupmm.com.ar/capacitaciones",
+    ogUrl: "https://profileupmm.com.ar/capacitaciones-entrevistas",
   },
 ];
