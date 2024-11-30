@@ -11,7 +11,7 @@ const Iconcard = ({ title, description, src }) => {
     <Card style={{ width: "18rem" }} className={styles.icon_card}>
       <img src={src} alt={title} className="card-img-top" />
       <Card.Body>
-        <h4>{title}</h4>
+        <h3>{title}</h3>
         <Card.Text>{description}</Card.Text>
       </Card.Body>
     </Card>

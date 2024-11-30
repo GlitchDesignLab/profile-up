@@ -27,3 +27,7 @@
   text-align: center;
   flex: none;
 }
+.icon_card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
