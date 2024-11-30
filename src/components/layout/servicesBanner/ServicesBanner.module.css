@@ -60,7 +60,18 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .servicesBanner {
+    padding: 2.5rem;
+  }
   .ServicesBanner_mainImg {
     display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .servicesBanner {
+    padding: 1rem;
+  }
+  .servicesBanner_text a {
+    font-size: 1rem;
   }
 }

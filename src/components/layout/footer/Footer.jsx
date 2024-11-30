@@ -83,17 +83,26 @@ const Footer = () => {
             <span>Redes sociales</span>
             <ul className="list-unstyled d-flex flex-column align-items-start gap-1">
               <li>
-                <a href="https://www.linkedin.com/in/mat%C3%ADasamart%C3%ADnez?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <a
+                  href="https://www.linkedin.com/in/mat%C3%ADasamart%C3%ADnez?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  target="blank"
+                >
                   <IconText icon={linkedinIcon}>Linkedin</IconText>
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/profileup_buenosaires/profilecard/?igsh=MWFudTRkamRkbGFsOA==">
+                <a
+                  href="https://www.instagram.com/profileup_buenosaires/profilecard/?igsh=MWFudTRkamRkbGFsOA=="
+                  target="blank"
+                >
                   <IconText icon={instagramIcon}>Instagram</IconText>
                 </a>
               </li>
               <li>
-                <a href="https://wa.me/541153332684?text=Hola!,%20Quiero%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20ProfileUp">
+                <a
+                  href="https://wa.me/541153332684?text=Hola!,%20Quiero%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20ProfileUp"
+                  target="blank"
+                >
                   <IconText icon={whatsappIcon}>Whatsapp</IconText>
                 </a>
               </li>
