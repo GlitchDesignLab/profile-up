@@ -40,7 +40,7 @@ const Footer = () => {
             <ul className="list-unstyled d-flex flex-column align-items-center gap-1">
               <li>
                 <Link to="/rrhh" replace>
-                  Recuros humanos
+                  Recursos humanos
                 </Link>
               </li>
               <li>
