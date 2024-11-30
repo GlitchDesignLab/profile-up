@@ -42,6 +42,7 @@ const Homesocial = () => {
             <a
               href="https://www.instagram.com/profileup_buenosaires/profilecard/?igsh=MWFudTRkamRkbGFsOA=="
               target="_blank"
+              aria-label="Ir a la página de Instagram"
               rel="noopener noreferrer"
             >
               <FontAwesomeIcon icon={faInstagram} size="2x" />
@@ -52,6 +53,7 @@ const Homesocial = () => {
             <a
               href="https://www.linkedin.com/in/mat%C3%ADasamart%C3%ADnez?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
+              aria-label="Ir a la página de Linkedin"
               rel="noopener noreferrer"
             >
               <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
@@ -62,6 +64,7 @@ const Homesocial = () => {
             <a
               href="https://wa.me/541153332684?text=Hola!,%20Quiero%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20ProfileUp"
               target="_blank"
+              aria-label="Ir a Whatsapp"
               rel="noopener noreferrer"
             >
               <FontAwesomeIcon icon={faWhatsapp} size="2x" />
