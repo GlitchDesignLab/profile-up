@@ -76,7 +76,7 @@ const Asesoria = () => {
           prop1="Mejora el desempeño de tu equipo"
           prop2="Estate al tanto de las nuevas tendencias en el área"
           image={asesoriaservice}
-          link="/#"
+          link="https://wa.me/541153332684?text=Hola!,%20Quiero%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20ProfileUp"
           btnLabel="Realizar consulta"
         />
         <ServiceIconCards

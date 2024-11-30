@@ -25,7 +25,9 @@ export default function ServicesBanner({
           <li>{prop1}</li>
           <li>{prop2}</li>
         </ul>
-        <a href={link}>{btnLabel}</a>
+        <a href={link} target="blank">
+          {btnLabel}
+        </a>
       </div>
       <img src={image} alt={title} className={styles.ServicesBanner_mainImg} />
     </div>

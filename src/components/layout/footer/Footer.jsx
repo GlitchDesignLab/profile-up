@@ -69,10 +69,15 @@ const Footer = () => {
             <span>Contacto</span>
             <ul className="list-unstyled d-flex flex-column align-items-center gap-1">
               <li>
-                <a href="mailto:profileupba@gmail.com">profileupba@gmail.com</a>
+                <a href="mailto:profileupba@gmail.com" target="blank">
+                  profileupba@gmail.com
+                </a>
               </li>
               <li>
-                <a href="https://wa.me/541153332684?text=Hola!,%20Quiero%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20ProfileUp">
+                <a
+                  href="https://wa.me/541153332684?text=Hola!,%20Quiero%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20ProfileUp"
+                  target="blank"
+                >
                   (+54) 9 11 5333-2684
                 </a>
               </li>

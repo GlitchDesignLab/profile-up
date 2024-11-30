@@ -82,7 +82,7 @@ const Terapia = () => {
           prop1="Organizá tu vida"
           prop2="Gestioná tus tiempos"
           image={terapiaserivce}
-          link="/#"
+          link="https://wa.me/541153332684?text=Hola!,%20Quiero%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20ProfileUp"
           btnLabel="Agendar una sesión"
         />
         <ServiceIconCards

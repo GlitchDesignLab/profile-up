@@ -77,7 +77,7 @@ const Psicotecnico = () => {
           prop1="Revisa tu salud emocional"
           prop2="Sé evaluado por profesionales"
           image={psicotecnicoservice}
-          link="/#"
+          link="https://wa.me/541153332684?text=Hola!,%20Quiero%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20ProfileUp"
           btnLabel="Agendar una sesión"
         />
         <ServiceIconCards

@@ -83,7 +83,7 @@ const Rrhh = () => {
           prop1="Optimiza tu búsqueda"
           prop2="Encuentra al profesional adecuado"
           image={rrhhService}
-          link="/#"
+          link="https://wa.me/541153332684?text=Hola!,%20Quiero%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20ProfileUp"
           btnLabel="Realizar consulta"
         />
         <ServiceIconCards
