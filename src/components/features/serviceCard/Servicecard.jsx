@@ -12,13 +12,20 @@ import { Link, NavLink } from "react-router-dom";
 import styles from "./Servicecard.module.css";
 
 const Servicecard = ({ title, description, src, link }) => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+    });
+  };
   return (
     <Card style={{ width: "18rem" }} className={styles.card}>
       <img src={src} alt="" className="card-img-top" />
       <Card.Body className="d-flex flex-column justify-content-between align-items-start">
         <Card.Title>{title}</Card.Title>
         <Card.Text>{description}</Card.Text>
-        <Link to={link}>Obtener más info</Link>
+        <Link onClick={scrollToTop} to={link} replace>
+          Obtener más info
+        </Link>
       </Card.Body>
     </Card>
   );

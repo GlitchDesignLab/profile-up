@@ -11,7 +11,7 @@ export const servicios = [
     src: imagenterapia,
     name: "Terapia",
     description: "Espacio de apoyo emocional para el bienestar personal.",
-    link: "/terapia-piscologica",
+    link: "/terapia-psicologica",
   },
   {
     id: 2,
